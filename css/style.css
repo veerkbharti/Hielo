@@ -1,0 +1,145 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color : #f2f2f2 !important;
+}
+.container{
+    padding: 0px !important;
+}
+.row{
+    padding: 0px !important;
+}
+
+/* Navigation coding starts.. */
+#myNavigation{
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+#myNavigation a{
+    color: white;
+}
+#myNavigation button{
+    color: white;
+}
+/* Navigation coding end.. */
+
+/* Carousel coding starts.. */
+#myCarousel .carousel-item{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+#myCarousel .item-1{
+    background-image: url(../img/slide01.jpg);
+}
+#myCarousel .item-2{
+    background-image: url(../img/slide02.jpg);
+}
+#myCarousel .item-3{
+    background-image: url(../img/slide03.jpg);
+}
+#myCarousel .item-4{
+    background-image: url(../img/slide04.jpg);
+}
+#myCarousel .item-5{
+    background-image: url(../img/slide05.jpg);
+}
+.banner-text{
+    color: white;
+    text-align: center;
+    width: 35%;
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    z-index: 20;
+}
+.banner-text p{
+    font-size: 13px;
+    font-weight: 150;
+    letter-spacing: 4px;
+}
+.banner-text hr{
+    width: 50%;
+    color: white !important;
+}
+.banner-text h1{
+    font-size: 110px;
+    font-weight: 350;
+    margin-top: 3px;
+}
+/* Carousel coding end.. */
+
+/* section coding starts.. */
+.section-1 .row{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+    background-color: white;
+    padding: 0px;
+}
+.section-1 .row img, .section-3 .row img{
+    width: 100%;
+}
+.section-1 .row h3, .section-2 h3, section h3{
+    margin-top: 40px;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+.section-1 .row hr{
+    width:45%;
+}
+.section-1 .row p{
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: left;
+}
+.section-1 .row button{
+    border-color: #d9d9d9;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.section-2{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+
+}
+.section-2 hr{
+    width: 70%;
+}
+.section-2 div{
+
+}
+/* Section-3 codes */
+.section-3 .container .qoute div{
+    width: 100%;
+    text-align: center;
+}
+.section-3 .container .qoute div hr{
+    width: 70%;
+}
+.section-3 img{
+    padding: 16px;
+    background-color: white;
+}
+footer{
+    background-color: black;
+    color: grey;
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 20px;
+}
+footer .social-icon{
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+}
+footer h6{
+    font-size: 10px;
+}
